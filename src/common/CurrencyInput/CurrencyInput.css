@@ -1,0 +1,38 @@
+.currency-input {
+    width: 100%;
+  }
+  
+  .currency-input-label {
+    font-weight: 500;
+    margin-bottom: 4px;
+    display: block;
+  }
+  
+  .currency-input-field {
+    width: 100%;
+  }
+  
+  /* Styles pour différentes tailles */
+  .currency-input .ant-input-number-lg {
+    font-size: 16px;
+  }
+  
+  .currency-input .ant-input-number {
+    border-radius: 6px;
+  }
+
+  .ant-input-number-disabled{
+    color:white !important;
+    background-color: #83c783 !important;
+    border-color: #83c783 !important;
+  }
+  
+  .currency-input .ant-input-number:hover {
+    border-color: #40a9ff;
+  }
+  
+  .currency-input .ant-input-number:focus,
+  .currency-input .ant-input-number-focused {
+    border-color: #1890ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  }

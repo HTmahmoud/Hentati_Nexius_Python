@@ -1,0 +1,31 @@
+.direction-switch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  
+  .direction-switch-control {
+    min-width: 70px;
+  }
+  
+  .direction-switch-icon {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #1890ff;
+    transition: all 0.3s;
+  }
+  
+  .direction-switch-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Animation lors du changement */
+  .direction-switch .ant-switch {
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .direction-switch .ant-switch-checked {
+    background-color: #1890ff;
+  }

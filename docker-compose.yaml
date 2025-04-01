@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  currency-converter-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    restart: always
+    # Volumes optionnels pour le développement
+    # volumes:
+    #   - ./:/app
+    #   - /app/node_modules
