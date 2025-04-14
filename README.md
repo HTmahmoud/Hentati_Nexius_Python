@@ -35,3 +35,18 @@ Ant Design 5
 JavaScript ES6+
 CSS3
 GitHub Pages (pour l'hébergement)
+
+5-Démarrer l'application en mode développement
+*Utiliser Docker Compose (recommandée)
+
+5-1 Construire et démarrer le conteneur de développement :
+bashdocker-compose -f docker-compose.dev.yml up
+
+5-2 Pour exécuter en arrière-plan (mode détaché) :
+bashdocker-compose -f docker-compose.dev.yml up -d
+
+5-3 Pour afficher les logs en mode détaché :
+bashdocker-compose -f docker-compose.dev.yml logs -f
+
+5-4 Pour arrêter le conteneur :
+bashdocker-compose -f docker-compose.dev.yml down
